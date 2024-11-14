@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="viewModel"
+            type="ru.example.spinnerwebview.MainActivity" />
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Выберите язык программирования"
+    android:textSize="20sp">
+
+</TextView>
+
+    <Spinner
+        android:id="@+id/Sp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+<WebView
+    android:id="@+id/Ww"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+</WebView>
+</LinearLayout>
+</layout>
